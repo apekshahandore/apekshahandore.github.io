@@ -1121,11 +1121,9 @@ line-height: 14px;
 }
 @media only screen and (min-width: 479px){
   .tile_card{
-    flex-basis: 100%;
-    padding: 0 30px;
+   padding: 0 30px;
   }
   .ingrediats_tiles_wrapper .tiles_head h4{
-    max-width: 216px;
     margin: 0 auto 30px;
   }
  
