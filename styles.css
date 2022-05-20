@@ -206,7 +206,7 @@ flex-basis: 60%;
   top: 3%;
   height: 80%;
   z-index: 1;
-  background: url('./assets/Sooth_mobile_home/plant@2x.png') -450% 40% no-repeat,url('./assets/Sooth_mobile_home/plant-1@2x.png')72% 0% no-repeat;
+  background: url('./assets/Sooth_mobile_home/plant@2x.png') -350% 40% no-repeat,url('./assets/Sooth_mobile_home/plant-1@2x.png')72% 0% no-repeat;
   /* background-position:  120% 50%; */
   
 }
@@ -259,7 +259,8 @@ flex-basis: 60%;
   margin-right: 28px;
 }
 .recommended_product .card-container .card .img{
-  height: 346px;}
+  height: 346px;
+}
 
 .card-container .card .img{
   height: 346px;
@@ -276,9 +277,10 @@ flex-basis: 60%;
   left: 0;
   top: 0;
   object-fit: cover;
-}.product_teaser .card-container .card .img{
+}
+.product_teaser .card-container .card .img{
   position: relative;
-  height: 346px;
+  /* height: 346px; */
 
 }
 .product_teaser .card-container .card .img img.image-hover{
@@ -287,7 +289,7 @@ flex-basis: 60%;
   top: 0;
   left: 0;
   z-index: 99;
-  height: 346px;
+  /* height: 346px; */
   object-fit: cover;
 
 }
@@ -732,8 +734,9 @@ i.fa-solid.fa-bars.mobile_nav_icon{
   left: 0;
   right: 0;
   height: 135vh;
-  background-color: #fff;
+  background-color:#fff;
   padding: 50px 54px 84px 57px;
+opacity: 1;
   /* transform: translateX(100%);
   transition: all  0.5s linear; */
   /* opacity: 0;
@@ -768,6 +771,13 @@ i .fa-xmark .mobile_nav_icon{
   cursor: pointer;
   color: var(--primary-text-color);
   margin-left: 22px;
+  font-size: 12px ;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.mobile_nav i.fa-solid.fa-xmark.close_icon{
+ font-size: 32px;
 }
 .mobile_bottom_nav .main__menus {
   text-align: left;
@@ -778,6 +788,7 @@ i .fa-xmark .mobile_nav_icon{
 text-decoration: none;
 cursor: pointer;
 color: var(--primary-text-color);
+font-size: 24px;
 }
 .mobile_bottom_nav .main__menus li:not(:first-child){
  margin-top: 45px;
@@ -904,6 +915,7 @@ line-height: 14px;
   }
 }
 @media only screen and (max-width: 767px){
+
   i.fa-solid.fa-bars.mobile_nav_icon{
     display: block;
     visibility: visible;
@@ -1121,9 +1133,10 @@ line-height: 14px;
 }
 @media only screen and (min-width: 479px){
   .tile_card{
-   padding: 0 30px;
+    padding: 0 30px;
   }
   .ingrediats_tiles_wrapper .tiles_head h4{
+   
     margin: 0 auto 30px;
   }
  
